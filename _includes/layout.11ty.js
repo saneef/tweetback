@@ -111,13 +111,15 @@ module.exports = async function (data) {
 						</span>
 					</span>
 				</a>
-				${
-					!data.hideHeaderTweetsLink
-						? `<ul class="tweets-nav">
-					<li><a href="${data.metadata.homeUrl}">← ${data.metadata.homeLabel}</a></li>
-				</ul>`
-						: ""
-				}
+				<div class="page-header__nav">
+					${
+						!data.hideHeaderTweetsLink
+							? `<ul class="tweets-nav">
+						<li><a href="${data.metadata.homeUrl}">← ${data.metadata.homeLabel}</a></li>
+					</ul>`
+							: ""
+					}
+				</div>
 				${navHtml}
 			</header>
 			<main>

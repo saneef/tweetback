@@ -152,6 +152,9 @@ button {
 .page-header__brand {
 	margin-right: auto;
 }
+.page-header__nav {
+	padding: 0.5rem 0;
+}
 .tweets-title {
 	display: inline-block;
 	font-size: 1em;
@@ -316,6 +319,7 @@ img.tweet-media {
 video.tweet-media {
 	width: auto;
 	max-height: 10em;
+	max-width: 100%;
 }
 .tweet-media-load-error {
 	display: block;
