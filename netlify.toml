@@ -1,0 +1,8 @@
+ [[redirects]]
+	 from = "/p.js"
+	 to = "https://plausible.io/js/plausible.js"
+	 status = 200
+ [[redirects]]
+	 from = "/api/event"
+	 to = "https://plausible.io/api/event"
+	 status = 200

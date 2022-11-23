@@ -84,6 +84,7 @@ module.exports = async function (data) {
 
 		<link rel="stylesheet" href="/assets/style.css">
 		<script src="/assets/script.js"></script>
+		<script defer data-domain="tweets.saneef.com" src="/p.js"></script>
 		${
 			data.page.fileSlug === "newest"
 				? `<link rel="canonical" href="/${data.tweet.id_str}/">
