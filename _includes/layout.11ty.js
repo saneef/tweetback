@@ -119,8 +119,8 @@ module.exports = async function (data) {
 					</ul>`
 							: ""
 					}
+					${navHtml}
 				</div>
-				${navHtml}
 			</header>
 			<main>
 				${data.content}

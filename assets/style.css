@@ -8,7 +8,6 @@ body {
 	min-height: 100%;
 	font-family: system-ui, sans-serif;
 	margin: 0;
-	padding: 0.5em 0.5em;
 }
 footer {
 	font-size: 0.875em; /* 14px /16 */
@@ -148,12 +147,13 @@ button {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 .page-header__brand {
 	margin-right: auto;
 }
 .page-header__nav {
-	padding: 0.5rem 0;
+	padding: 2rem 0;
 }
 .tweets-title {
 	display: inline-block;
@@ -164,10 +164,11 @@ button {
 	margin-right: 1.5em;
 }
 .tweets-nav {
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
 	padding: 0;
 	margin: 0;
-	line-height: 1.6875; /* 27px /16 */
+	gap: 1rem;
 }
 .tweets-nav li {
 	display: inline-block;
